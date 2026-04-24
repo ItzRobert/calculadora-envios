@@ -1,4 +1,4 @@
-package com.empresa.envios.infraestructure.repository;
+package com.empresa.envios.infrastructure.repository;
 
 import java.util.Optional;
 

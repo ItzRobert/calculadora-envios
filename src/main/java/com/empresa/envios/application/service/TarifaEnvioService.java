@@ -3,7 +3,7 @@ package com.empresa.envios.application.service;
 import org.springframework.stereotype.Service;
 
 import com.empresa.envios.domain.model.TarifaEnvio;
-import com.empresa.envios.infraestructure.repository.TarifaEnvioRepository;
+import com.empresa.envios.infrastructure.repository.TarifaEnvioRepository;
 
 @Service
 public class TarifaEnvioService {
