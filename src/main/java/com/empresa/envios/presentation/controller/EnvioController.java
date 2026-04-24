@@ -1,11 +1,12 @@
-package com.empresa.envios.controller;
+package com.empresa.envios.presentation.controller;
 
-import com.empresa.envios.model.EnvioForm;
-import com.empresa.envios.service.TarifaEnvioService;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
+
+import com.empresa.envios.application.service.TarifaEnvioService;
+import com.empresa.envios.domain.model.EnvioForm;
 
 @Controller
 public class EnvioController {

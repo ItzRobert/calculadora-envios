@@ -1,4 +1,4 @@
-package com.empresa.envios.model;
+package com.empresa.envios.domain.model;
 
 public class EnvioForm {
 private Double peso;

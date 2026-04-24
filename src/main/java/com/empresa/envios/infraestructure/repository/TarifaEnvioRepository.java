@@ -1,9 +1,10 @@
-package com.empresa.envios.repository;
-
-import com.empresa.envios.model.TarifaEnvio;
-import org.springframework.data.jpa.repository.JpaRepository;
+package com.empresa.envios.infraestructure.repository;
 
 import java.util.Optional;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.empresa.envios.domain.model.TarifaEnvio;
 
 public interface TarifaEnvioRepository extends JpaRepository<TarifaEnvio, Integer> {
     Optional<TarifaEnvio> findByPais(String pais);
